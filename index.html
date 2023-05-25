@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SWD102-JS Webpage</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+	<div class=”container”>
+
+		<!-- all of your existing content goes here -->
+	  
+	  
+	<div class="intro">
+		<img src=”https://via.placeholder.com/150”/>
+		<h1>Dr. Vicki Bealman</h1>
+		<h3>Instructor at LearningSource</h3>
+		<p>{{ Pause and ponder }}</p>
+	  </div>
+
+	  <div class="about">
+		<div class="i-am">
+		  <h3>I am</h3>
+		  <ul class="about-list">
+			<li>An engineer</li>
+			<li>A reader</li>
+			<li>A hobby cook</li>
+			<li>An avid traveller</li>
+		  </ul>
+		</div>
+		<div class="i-like">
+		  <h3>I like to</h3>
+		  <ul class="about-list">
+			<li>Meet new people</li>
+			<li>Play with my cats</li>
+			<li>Drink coffee</li>
+		  </ul>
+		</div>
+	  
+	  </div>
+
+	  <div>
+		<h3 class="projects-heading">My Projects</h3>
+		<div class="projects-grid">
+			<div class="project-image-wrapper">
+				<h4>Project 1</h4>
+				<img class="project-image" src="images/project-1.jpg"/>
+			</div>
+			<div class="project-image-wrapper">
+				<h4>Project 2</h4>
+				<img class="project-image" src="images/project-2.jpg"/>
+			</div>
+			<div class="project-image-wrapper">
+				<h4>Project 3</h4>
+				<img class="project-image" src="images/project-3.jpg"/>
+			</div>
+			<div class="project-image-wrapper">
+				<h4>Project 4</h4>
+				<img class="project-image" src="images/project-4.jpg"/>
+			</div>
+		</div>
+	</div>
+
+	<hr/>
+
+	<div class="links-and-contact">
+		<div class="links">
+			<h3>Links</h3>
+			<ul class="links-list">
+				<li>
+					<a href="https://github.com/">Github</a>
+				</li>
+				<li>
+					<a href="https://twitter.com/">Twitter</a>
+				</li>
+				<li>
+					<a href="https://linkedin.com">Linkedin</a>
+				</li>
+			</ul>
+		</div>
+
+		<div>
+			<form action="#">
+				<label for="email">
+					<h4>Email</h4>
+					<input type="email" id="email" placeholder="Enter your email" />
+				</label>
+				<label for="message">
+					<h4>Message</h4>
+					<textarea id="message" placeholder="Your message"></textarea>
+				</label>
+				<div class="submit-button-wrapper">
+					<input type="submit" value="Send Message" id="submit-button" />
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
